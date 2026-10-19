@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Netgaze frequently asked questions." />
+    <meta name="theme-color" content="#070f24" />
+    <title>Netgaze — Sık Sorulan Sorular</title>
+    <link rel="icon" href="ikon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body
+    data-language="tr"
+    data-title-tr="Netgaze — Sık Sorulan Sorular"
+    data-title-en="Netgaze — FAQ"
+  >
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="Netgaze">
+          <span class="mark" aria-hidden="true"><img src="ikon.png" alt="" /></span>
+          AGRADAR
+        </a>
+        <div class="top-actions">
+          <a class="nav-link" href="support.html">Destek · Support</a>
+          <a class="nav-link" href="index.html">Gizlilik · Privacy</a>
+          <div class="language-switcher" aria-label="Language">
+            <button class="language-button" data-language-button="tr">TR</button>
+            <button class="language-button" data-language-button="en">EN</button>
+          </div>
+        </div>
+      </header>
+
+      <div data-language-content="tr">
+        <section class="hero">
+          <p class="eyebrow">SIK SORULAN SORULAR</p>
+          <h1>Hızlı yanıtlar</h1>
+          <p class="hero-copy">
+            Aradığınızı bulamazsanız <a href="support.html">destek sayfasından</a> bize yazın.
+          </p>
+        </section>
+        <section class="faq-grid">
+          <div class="faq-card">
+            <h3>Neden konum izni istiyor?</h3>
+            <p>iOS ve Android, WiFi ağ adını (SSID) ve erişim noktasını (BSSID) yalnızca konum izni olan uygulamalara verir. Netgaze GPS konumunuzu okumaz; izin vermezseniz tarama ve araçlar yine çalışır.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Bazı cihazlar neden bulunamıyor?</h3>
+            <p>Uykudaki, güvenlik duvarı tüm sorgulara kapalı olan ya da misafir ağında (istemci yalıtımı) bulunan cihazlar yanıt vermeyebilir. Cihazı uyandırıp yeniden tarayın.</p>
+          </div>
+          <div class="faq-card">
+            <h3>MAC adresi neden "gizli" görünüyor?</h3>
+            <p>Yeni iOS ve Android sürümleri, uygulamaların diğer cihazların MAC adresini okumasını engeller. Netgaze MAC'i yalnızca cihaz kendisi bildirirse (NetBIOS, Bonjour) gösterebilir.</p>
+          </div>
+          <div class="faq-card">
+            <h3>iPhone'da neden WiFi analizörü yok?</h3>
+            <p>Apple, uygulamalara çevredeki WiFi ağlarının listesini ve sinyal gücünü vermez. Bu yüzden WiFi analizörü, sinyal bulucu ve kat planı yalnızca Android'de çalışır; iPhone'da oda tespiti bağlı erişim noktasına göre yapılır.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Mobil veride tarama yapabilir miyim?</h3>
+            <p>Hayır. Cihaz taraması için bir WiFi ya da Ethernet ağına bağlı olmanız gerekir. Ping, DNS, Whois ve hız testi gibi araçlar mobil veride de çalışır.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Verilerim nerede, nasıl silerim?</h3>
+            <p>Tüm kayıtlar yalnızca telefonunuzda tutulur. Ayarlar &gt; Tüm verileri sil ile ya da uygulamayı kaldırarak hepsini silebilirsiniz.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Başkasının ağını tarayabilir miyim?</h3>
+            <p>Yalnızca kendi ağınızı ya da tarama izniniz olan ağları tarayın. İzinsiz tarama birçok ülkede yasaktır; bkz. <a href="termsofuse.html">Kullanım Koşulları</a>.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Mesafe ve konum ne kadar doğru?</h3>
+            <p>Sinyal gücüne dayalı mesafeler duvarlar ve yansımalar nedeniyle yaklaşık ±%50 sapabilir. WiFi RTT destekleyen Android cihaz ve erişim noktalarında metre düzeyinde ölçüm yapılır.</p>
+          </div>
+        </section>
+      </div>
+
+      <div data-language-content="en">
+        <section class="hero">
+          <p class="eyebrow">FREQUENTLY ASKED QUESTIONS</p>
+          <h1>Quick answers</h1>
+          <p class="hero-copy">
+            Can't find what you need? Write to us from the <a href="support.html">support page</a>.
+          </p>
+        </section>
+        <section class="faq-grid">
+          <div class="faq-card">
+            <h3>Why does it ask for location permission?</h3>
+            <p>iOS and Android only give the WiFi network name (SSID) and access point (BSSID) to apps with location permission. Netgaze never reads your GPS location; scanning and the tools still work without it.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Why are some devices not found?</h3>
+            <p>Sleeping devices, devices whose firewall blocks every probe, or devices on a guest network (client isolation) may not respond. Wake the device and scan again.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Why is the MAC address "hidden"?</h3>
+            <p>Recent iOS and Android versions prevent apps from reading other devices' MAC addresses. Netgaze can show a MAC only when the device reports it itself (NetBIOS, Bonjour).</p>
+          </div>
+          <div class="faq-card">
+            <h3>Why is there no WiFi analyzer on iPhone?</h3>
+            <p>Apple does not give apps the list of nearby WiFi networks or signal strength. That is why the WiFi analyzer, signal finder and floor plan work only on Android; on iPhone, room detection uses the connected access point.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Can I scan over mobile data?</h3>
+            <p>No. Device scanning requires a WiFi or Ethernet network. Tools such as ping, DNS, Whois and speed test also work over mobile data.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Where is my data and how do I delete it?</h3>
+            <p>All records are kept only on your phone. Delete everything with Settings &gt; Delete all data, or by uninstalling the app.</p>
+          </div>
+          <div class="faq-card">
+            <h3>Can I scan someone else's network?</h3>
+            <p>Only scan your own network or networks you are authorized to scan. Unauthorized scanning is illegal in many countries; see the <a href="termsofuse.html">Terms of Use</a>.</p>
+          </div>
+          <div class="faq-card">
+            <h3>How accurate are distance and location?</h3>
+            <p>Signal-strength distances can be off by about ±50% because of walls and reflections. On Android devices and access points that support WiFi RTT, distance is measured to the meter.</p>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="index.html">Privacy</a>
+          <a href="termsofuse.html">Terms</a>
+          <a href="support.html">Support</a>
+          <a href="faq.html">FAQ</a>
+          <a href="https://mfatihicin.github.io">Developer</a>
+        </div>
+        © <span data-year></span> Netgaze · mfatihicin
+      </footer>
+    </main>
+  </body>
+</html>
