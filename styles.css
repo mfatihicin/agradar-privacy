@@ -442,3 +442,23 @@ body[data-language='en'] [data-language-content='en'] {
     transition: none !important;
   }
 }
+
+/* 8 Kasım 2026: yasal metinler için küçük eklemeler */
+.section h3 {
+  margin-top: 20px;
+  color: var(--text);
+}
+
+.section ol {
+  margin: 14px 0 0;
+  padding-left: 22px;
+}
+
+.section ol li {
+  color: var(--muted);
+  margin-bottom: 9px;
+}
+
+.footer p {
+  margin: 0 0 10px;
+}
